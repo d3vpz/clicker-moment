@@ -6,9 +6,11 @@ body {
   /* button */
   border-radius: 10%;
   border-color: transparent;
-  background-color: #505050;
-  width: 200px;
-  height: 200px;
+  background-color: transparent;
+  background-image: url('resources/images/button_icon.png');
+  background-size:contain;
+  width: 400px;
+  height: 400px;
   margin: auto;
   padding: 0;
   display: block;
@@ -39,6 +41,7 @@ body {
   display: block;
   margin: auto;
   padding: 5px;
+  width: 300px;
   border-radius: 5px;
   right: 10%;
   top: 10%;
@@ -55,4 +58,36 @@ body {
   margin-bottom: 3px;
   background-color: #202020;
   color: white;
+}
+
+.save_data {
+  margin: auto;
+  padding: 0;
+  display: block;
+  position: absolute;
+  top: 90%;
+  left: 5%;
+}
+
+.save_data button {
+  background-color: #505050;
+  border-color: transparent;
+  border-radius: 5px;
+  display: inline-block;
+  
+  color: white;
+  font-family: sans-serif;
+}
+
+#viewport {
+  background-color: white;
+  position: absolute;
+  display: block;
+  margin: auto;
+  padding: 0;
+  left: 0;
+  right: 0;
+  top: 10%;
+  border-radius: 15px;
+  background-color: #505050;
 }
