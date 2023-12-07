@@ -6,7 +6,7 @@ body {
   /* button */
   border-radius: 10%;
   border-color: transparent;
-  background-color: transparent;
+  background-color: #505050;
   background-image: url('resources/images/button_icon.png');
   background-size:contain;
   width: 400px;
@@ -44,7 +44,7 @@ body {
   width: 300px;
   border-radius: 5px;
   right: 10%;
-  top: 10%;
+  top: 11%;
   bottom: 10%;
 }
 
